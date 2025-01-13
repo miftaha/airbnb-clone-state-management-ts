@@ -45,16 +45,3 @@ Make sure you have the following installed:
    ```bash
    npm run dev
    ```
-
-## Folder Structure
-
-src/
-├── pages/
-│ ├── \_app.tsx # Wraps the app with Redux Provider
-│ ├── index.tsx # Main page
-│ └── userProfile.tsx # Example component using Redux
-├── store/
-│ ├── index.ts # Redux store setup
-│ ├── rootReducer.ts # Root reducer combining slices
-│ └── slices/
-│ └── userSlice.ts # User slice for state management
